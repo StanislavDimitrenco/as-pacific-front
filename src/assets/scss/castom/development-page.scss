@@ -22,8 +22,20 @@
   background-image: url(../img/mobile-head@2x.jpg);
 }
 
+.mini-web {
+  background-image: url(../services-files/87/mini-programs.jpg);
+}
+
 .baidu-head {
   background-image: url(../img/baidu-head@2x.jpg);
+}
+
+.consalting-head {
+  background-image: url(../services-files/77/consalting-cover.jpg);
+}
+
+.douyin-head {
+  background-image: url(../services-files/78/douyn-cover.png);
 }
 
 .soc-head {
@@ -58,6 +70,31 @@
   background-image: url(../img/weibo-head@2x.jpg);
 }
 
+.exhibition {
+  background-image: url(../img/exhibition.jpg);
+}
+
+
+.little-red-book-cover {
+  background-image: url(../img/little-red-book-cover.jpg);
+}
+
+.translate-cover {
+  background-image: url(../services-files/76/translate-cover.jpg);
+
+}
+
+.services-cover {
+  background-image: url(../img/servises-cover.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center 60px;
+}
+
+.tao-bao-cover {
+  background-image: url(../img/tao-bao-cover.jpg);
+}
+
 .icp-head {
   background-image: url(../img/icp-head@2x.jpg);
 }
@@ -71,8 +108,143 @@
   background-size: cover;
 }
 
+
+.banner-neva-pallet {
+  background-image: url(../potfolio-files/84/neva-cover.jpg);
+  background-size: cover;
+}
+
+.banner-smoll-pass {
+  background-image: url(../potfolio-files/85/smoll-pass-cover.jpg);
+  background-size: cover;
+}
+
+.flower-cover {
+  background-image: url(../potfolio-files/89/flovera-cover.jpg);
+  background-size: cover;
+}
+
+
+.skydrive {
+  background-image: url(../potfolio-files/100/cover-main.jpg);
+  background-size: cover;
+}
+
+#skydrive {
+  background: #fff url(../potfolio-files/100/cover-little.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+
+.export-energy {
+  background-image: url(../potfolio-files/101/cover-main.jpg);
+  background-size: cover;
+}
+
+
+.artlife {
+  background-image: url(../potfolio-files/149/artlife-cover.jpg);
+  background-size: cover;
+}
+
+#export-energy {
+  background: #fff url(../potfolio-files/101/cover-mini.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.big-creative-company-cover {
+  background-image: url(../potfolio-files/93/big-creative-company-cover.jpg) ;
+  background-size: cover;
+  background-position: center;
+}
+
+.n-g-c-cover {
+  background-image: url(../potfolio-files/94/n-g-c-cover.jpg) ;
+  background-size: cover;
+  background-position: center;
+}
+
+.chief-cover {
+  background-image: url(../potfolio-files/90/chief-cover.jpg);
+  background-size: cover;
+}
+
+
+.villashomes-cover {
+  background-image: url(../potfolio-files/91/villashomes-cover.jpg);
+  background-size: cover;
+}
+
+
+.hotpot-cover {
+  background-image: url(../potfolio-files/92/hot-pot-cover.jpg);
+  background-size: cover;
+}
+
+.banner-ilgiz {
+  background-image: url(../potfolio-files/86/ilgiz-cover.jpg);
+  background-size: cover;
+}
+
+
+
 #enileev {
-  background: #fff url("../potfolio-files/58/cover.jpg") no-repeat left center;
+  background: #fff url("../potfolio-files/58/cover.jpg") no-repeat center center;
+  background-size: cover;
+
+}
+
+#urgu {
+  background: #fff url("../potfolio-files/150/urgu.jpg") no-repeat center center;
+  background-size: cover;
+
+}
+
+#mira {
+  background: #fff url("../potfolio-files/151/mira.jpg") no-repeat center center;
+  background-size: cover;
+
+}
+
+#mira {
+  background: #fff url("../potfolio-files/151/mira.jpg") no-repeat center center;
+  background-size: cover;
+
+}
+
+#tels {
+  background: #fff url("../potfolio-files/covers/tels.jpg") no-repeat center center;
+  background-size: cover;
+
+}
+
+#immc {
+  background: #fff url("../potfolio-files/covers/immc.jpg") no-repeat center center;
+  background-size: cover;
+
+}
+
+#enaza {
+  background: #000 url("../img/enaza.jpg") no-repeat center center;
+  background-size: cover;
+
+}
+
+#avangard-travel {
+  background: #000 url("../img/avangard-travel.jpeg") no-repeat center center;
+  background-size: cover;
+
+}
+
+
+#dashi {
+  background: #fff url("../potfolio-files/covers/DASHI-prt.jpg") no-repeat center center;
+  background-size: cover;
+
+}
+
+#flovera {
+  background: #fff url("../potfolio-files/covers/flovera-prt.jpg") no-repeat center center;
   background-size: cover;
 
 }
@@ -80,7 +252,7 @@
 .dev-first-slide.inset-white {
   background-repeat: no-repeat;
   background-size: 1352px auto;
-  background-position: center 60px;
+  background-position: center;
 }
 
 .dev-first-slide.default-bg {

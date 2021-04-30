@@ -349,7 +349,6 @@
   margin-bottom: 27px;
 
   a {
-    margin-left: 30px;
     color: #777777;
     font-size: 20px;
   }
@@ -383,6 +382,58 @@
 
 .right-links-inset.teamwork-weibo i {
   background: url("../../assets/img/teamwork-weibo.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 47px;
+  height: 47px;
+  display: block;
+}
+
+
+.right-links-inset.young-icon-b i {
+  background: url("../services-files/78/young.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 37px;
+  height: 54px;
+  display: block;
+}
+
+
+.right-links-inset.girl-icon-b i {
+  background: url("../services-files/78/male.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 47px;
+  height: 47px;
+  display: block;
+}
+
+
+.right-links-inset.man-icon-b-4 i {
+  background: url("../services-files/78/woman.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 47px;
+  height: 47px;
+  display: block;
+}
+
+
+.right-links-inset.man-icon-b i {
+  background: url("../services-files/75/business-and-finance.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 47px;
+  height: 47px;
+  display: block;
+}
+
+.right-links-inset.laptop-men-rb i {
+  background: url("../services-files/74/laptop-men.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 47px;
+  height: 47px;
+  display: block;
+}
+
+.right-links-inset.product-rb i {
+  background: url("../services-files/74/product.svg") no-repeat center;
   background-size: 100% auto;
   width: 47px;
   height: 47px;
@@ -500,9 +551,7 @@
     margin-right: 22px;
   }
 
-  .right-links a {
-    margin-left: 20px;
-  }
+
 }
 
 @media screen and (max-width: 510px) {

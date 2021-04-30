@@ -101,8 +101,10 @@
   display: inline-block;
   width: $carousel-control-icon-width;
   height: $carousel-control-icon-width;
-  background: transparent no-repeat center center;
-  background-size: 100% 100%;
+  background: transparent no-repeat 22px center;
+  background-size: 30px 30px;
+  background-color: #f14c4c;
+  border-radius: 12px;
 }
 .carousel-control-prev-icon {
   background-image: $carousel-control-prev-icon-bg;

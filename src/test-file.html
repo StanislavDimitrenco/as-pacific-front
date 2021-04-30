@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <style>
+        .clearHeader{
+            height: 200px;
+            background-color: rgba(107,107,107,0.66);
+            position: fixed;
+            top:200;
+            width: 100%;
+
+        }
+
+
+        .darkHeader {height: 100px;}
+
+
+        .wrapper {
+            height:2000px;
+        }
+    </style>
+
+</head>
+<body>
+<header class="clearHeader">
+</header>
+
+<div class="wrapper">
+</div>
+<script>
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+
+        if (scroll >= 500) {
+            $(".clearHeader").addClass("darkHeader");
+        } else {
+            $(".clearHeader").removeClass("darkHeader");
+        }
+    });
+</script>
+</body>
+</html>

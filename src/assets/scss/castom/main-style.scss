@@ -27,6 +27,31 @@
   background-size: 50px;
 }
 
+.right-links .taobao i {
+  display: block;
+  background: url(../services-files/74/taobao.svg) no-repeat center;
+  width: 77px;
+  height: 77px;
+  background-size: 50px;
+}
+
+.right-links .baidu i {
+  display: block;
+  background: url(../services-files/74/baidu.svg) no-repeat center;
+  width: 77px;
+  height: 77px;
+  background-size: 50px;
+}
+
+.right-links .little-icon-red-book i {
+  display: block;
+  background: url(../services-files/75/little-red.png) no-repeat center;
+  background-size: 50%;
+  width: 77px;
+  height: 77px;
+}
+
+
 .right-links .weibo i {
   display: block;
   background: url(../img/weibo-social-media.svg) no-repeat center;
@@ -56,7 +81,23 @@
   background: url(../img/hosting-link.svg) no-repeat center;
   width: 77px;
   height: 77px;
-  background-size: 27px;
+  background-size: 36px;
+}
+
+.right-links .translate-i i {
+  display: block;
+  background: url(../img/language.svg) no-repeat center;
+  width: 77px;
+  height: 77px;
+  background-size: 36px;
+}
+
+.right-links .seo-i i {
+  display: block;
+  background: url(../img/seo-china.svg) no-repeat center;
+  width: 77px;
+  height: 77px;
+  background-size: 43px;
 }
 
 .right-links .icp-link i {
@@ -125,6 +166,26 @@
   color: $red!important;
 }
 
+.red-book-i {
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  padding: 3px 0px 20px 54px;
+
+}
+
+.one-i {
+  background-image: url("../services-files/74/coast-shop.svg");
+ }
+
+.two-i {
+  background-image: url("../services-files/74/wallet-red-book.svg");
+}
+
+.three-i {
+  background-image: url("../services-files/74/percentage-red-book.svg");
+}
 //.arrow-red-h2:before {
 //  width: 12px;
 //  height: 88px;
@@ -135,3 +196,137 @@
 //  background: url(../img/arrow-red.svg) no-repeat;
 //  content: "";
 //}
+
+.can-do-t {
+  padding-bottom: 20px;
+}
+
+.can-do-t:before {
+  content: '';
+  display: block;
+  width: 66px;
+  height: 66px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.steps-b-t {
+  padding-left: 80px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.translate-t:before {
+  background: url("../services-files/76/translate.svg") no-repeat center;
+
+}
+
+.book-t:before {
+  background: url("../services-files/76/book.svg") no-repeat center;
+}
+
+.pie-chart-t:before {
+  background: url("../services-files/76/pie-chart.svg") no-repeat center;
+ }
+
+.gamepad-controller-t:before {
+  background: url("../services-files/76/gamepad-controller.svg") no-repeat center;
+}
+
+.monitor-t:before {
+  background: url("../services-files/76/monitor.svg") no-repeat center;
+}
+
+.long-play-record-cover-t:before {
+  background: url("../services-files/76/long-play-record-cover.svg") no-repeat center;
+}
+
+.site-t:before  {
+  background: url("../services-files/76/site.svg") no-repeat center;
+}
+
+.d-dictionary-t:before {
+  background: url("../services-files/76/3d-dictionary.svg") no-repeat center;
+  }
+
+.seal-t:before {
+  background: url("../services-files/76/seal.svg") no-repeat center;
+}
+
+.steps-tr-1 {
+  background: url(../services-files/76/1.svg) 20px 11px no-repeat;
+
+}
+
+.steps-tr-2 {
+  background: url(../services-files/76/2.svg) 20px 11px no-repeat;
+}
+
+.steps-tr-3 {
+  background: url(../services-files/76/3.svg) 20px 11px no-repeat;
+}
+
+.steps-tr-4 {
+  background: url(../services-files/76/4.svg) 20px 11px no-repeat;
+}
+
+.steps-tr-5 {
+  background: url(../services-files/76/5.svg) 20px 11px no-repeat;
+}
+
+.steps-tr-6 {
+  background: url(../services-files/76/6.svg) 20px 11px no-repeat;
+}
+
+.steps-tick-tock {
+  background: url(../services-files/78/tiktok.svg) 20px 11px no-repeat;
+}
+
+.steps-content {
+  background: url(../services-files/78/content.svg) 20px 11px no-repeat;
+}
+
+.steps-meneger {
+  background: url(../services-files/78/meneger.svg) 20px 11px no-repeat;
+}
+
+.steps-add {
+  background: url(../services-files/78/add.svg) 20px 11px no-repeat;
+}
+
+.gray-block-offer {
+  padding: 30px;
+  background: #F3F3F3;
+  border: 1px solid rgba(204, 18, 55, 0.23);
+}
+
+.licencia img {
+  width: 100%;
+  max-width: 650px;
+}
+
+.wechat-reg {
+  background: url(../services-files/77/wechat.svg) 10px 10px no-repeat;
+  padding-left: 110px;
+}
+
+.weibo-reg {
+  background: url(../services-files/77/sina-weibo.svg) 10px 10px no-repeat;
+  padding-left: 110px;
+}
+
+.baidu-reg {
+  background: url(../services-files/77/coin.svg) 10px 10px no-repeat;
+  padding-left: 110px;
+}
+
+.ust-capital {
+  background: url(../services-files/77/coin.svg) 30px 3px no-repeat;
+  padding-left: 110px;
+}
+
+.ust-capital-2 {
+  background: url(../services-files/77/coin-2.svg) 34px 5px no-repeat;
+  padding-left: 110px;
+}
