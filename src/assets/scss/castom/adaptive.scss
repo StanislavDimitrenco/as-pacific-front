@@ -148,6 +148,11 @@
 
   .inset-white .slide-three h1 {
     padding-top: 460px;
+    font-size: 50px;
+  }
+
+  .inset-white .presentation-slide h1 {
+    padding-top: 40px;
   }
 
 
@@ -330,6 +335,11 @@
 
   .inset-white .slide-three h1 {
     padding-top: 385px;
+    font-size: 40px;
+  }
+
+  .inset-white .presentation-slide h1 {
+    padding-top: 0;
   }
 
   .pay-links {
@@ -536,7 +546,9 @@
     transform: scale(1);
   }
 
-
+  .inset-white .presentation-slide h1 {
+    padding-top: 0!important;
+  }
 
 
 
@@ -602,6 +614,10 @@
   .inset-white.portfolio-cover .slide-three p
   {
     display: none;
+  }
+
+  .inset-white .presentation-slide h1 {
+    padding-top: 0;
   }
 }
 
@@ -692,6 +708,10 @@
 
   .dev-first-slide.inset-white .slide-three h1 {
     padding-top: 315px;
+  }
+
+  .inset-white .presentation-slide h1 {
+    padding-top: 0!important;
   }
 
   .yandex-kassa, .cv {
@@ -891,6 +911,9 @@ background: none;
 padding-top: 255px;
 }
 
+  .inset-white .presentation-slide h1 {
+    padding-top: 0!important;
+  }
 
 
 
@@ -1001,6 +1024,10 @@ padding-top: 5px;
   padding-top: 123px;
 }
 
+  .inset-white .presentation-slide h1 {
+    padding-top: 0!important;
+  }
+
   .mask {
     bottom: -1px;
     left: 317px;
@@ -1033,6 +1060,10 @@ padding-top: 5px;
 .dev-first-slide.inset-white .slide-three h1 {
 padding-top: 120px;
 }
+
+  .inset-white .presentation-slide h1 {
+    padding-top: 0!important;
+  }
 
 }
 

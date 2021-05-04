@@ -5,7 +5,7 @@
 }
 
 
-.inset-pages .menu-fixed  .logo {
+.inset-pages .menu-fixed .logo {
   padding-top: 10px;
 }
 
@@ -15,7 +15,7 @@
 }
 
 .develop {
-    background-image: url(../img/develop@2x.jpg);
+  background-image: url(../img/develop@2x.jpg);
 }
 
 .mobile-head {
@@ -153,13 +153,13 @@
 }
 
 .big-creative-company-cover {
-  background-image: url(../potfolio-files/93/big-creative-company-cover.jpg) ;
+  background-image: url(../potfolio-files/93/big-creative-company-cover.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .n-g-c-cover {
-  background-image: url(../potfolio-files/94/n-g-c-cover.jpg) ;
+  background-image: url(../potfolio-files/94/n-g-c-cover.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -185,7 +185,6 @@
   background-image: url(../potfolio-files/86/ilgiz-cover.jpg);
   background-size: cover;
 }
-
 
 
 #enileev {
@@ -325,7 +324,7 @@
   position: absolute;
 }
 
-.dev-second-slide  .under-first-slide-text {
+.dev-second-slide .under-first-slide-text {
   color: $gray5;
   font-size: 18px;
 }
@@ -462,15 +461,343 @@
 
 
 @keyframes animation-arrow {
-  0%   { background-position: 13px center; }
-  50%   { background-position: 50px center; }
-  51%   { background-position: -50px center; }
-  100%   { background-position: 13px center; }
+  0% {
+    background-position: 13px center;
+  }
+  50% {
+    background-position: 50px center;
+  }
+  51% {
+    background-position: -50px center;
+  }
+  100% {
+    background-position: 13px center;
+  }
 }
 
 @keyframes animation-arrow-back {
-  0%   { background-position: 13px center; }
-  50%   { background-position: -50px center; }
-  51%   { background-position: 50px center; }
-  100%   { background-position: 13px center; }
+  0% {
+    background-position: 13px center;
+  }
+  50% {
+    background-position: -50px center;
+  }
+  51% {
+    background-position: 50px center;
+  }
+  100% {
+    background-position: 13px center;
+  }
 }
+
+
+/* landing china school*/
+.presentation-slide {
+  padding-bottom: 200px;
+  margin-top: -29px;
+}
+
+.landing-china-students-bg .paints-breadcrumb {
+  padding-top: 20px;
+  margin-top: 0px;
+}
+
+.inset-white .presentation-slide h1 {
+  color: #333333;
+  font-size: 54px;
+  text-transform: inherit;
+  padding-top: 40px;
+}
+
+.presentation-slide p {
+  color: #555;
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 15px;
+}
+
+.order-call-back {
+  background: #cc1237 !important;
+  font-weight: 600 !important;
+}
+
+.landing-china-students-bg {
+  margin-top: 179px;
+  background: #fff url(../img/main-landing-img.jpeg) no-repeat center top;
+  background-size: cover;
+
+}
+
+.for-whom {
+  margin-top: -120px;
+  margin-bottom: 70px;
+}
+
+.for-whom p {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  padding-top: 20px;
+}
+
+.for-whom-block {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.85) 0%, #FFFFFF 68.46%);
+  border-radius: 10px;
+  height: 100%;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.ls-content p {
+  font-size: 18px;
+  line-height: 24px;
+  color: #555555;
+}
+
+.ls-content h2 {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 28px;
+  /* identical to box height, or 87% */
+
+
+  color: #333333;
+}
+
+.ls-content h3 {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height, or 117% */
+
+
+  color: #333333;
+}
+
+.what-you-get {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-bottom: 40px;
+}
+
+.what-you-get p {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.chart-img {
+  text-align: center;
+  padding-top: 20px;
+}
+
+
+.chart-img img {
+
+  max-width: 733px;
+  width: 100%;
+}
+
+.chart-img span {
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #555555;
+  font-size: 16px;
+}
+
+.red-dotted-list {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  background: url(../img/r-d-c.svg) no-repeat 20px 6px ;
+  padding-left: 50px;
+
+  color: #555555;
+}
+
+.portfolio-for-education img {
+  width: 100%;
+  border: 1px solid #E0E0E0;
+}
+
+.title-f-e {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height, or 117% */
+
+  text-transform: uppercase;
+
+  color: #333333;
+}
+
+.img-f-e {
+  display: block;
+}
+
+.portfolio-for-education p {
+  font-size: 18px;
+  line-height: 24px;
+  /* or 133% */
+
+
+  color: #555555;
+}
+
+.portfolio-for-education h4 {
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  font-weight: bold;
+
+  color: #333333;
+}
+
+.portfolio-for-education li {
+  color: #CC1237;
+  font-size: 40px;
+}
+
+.what-did {
+
+}
+
+.what-did p {
+  background: url(../img/r-d-l.svg) no-repeat 8px 6px ;
+  padding-left: 24px;
+  font-size: 16px;
+}
+
+.more-btn .red-btn {
+  color: #CC1237;
+  background: #fff!important;
+  border: 1px solid #CC1237;
+}
+
+.tools-content {
+  font-size: 18px;
+  line-height: 24px;
+  /* or 133% */
+
+
+  color: #555555;
+}
+
+.title-t-c {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 28px;
+  color: #555;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.title-t-c .red-color {
+  color: #CC1237;
+}
+
+.tools-content p {
+  font-size: 18px;
+  line-height: 24px;
+  padding-bottom: 15px;
+
+
+  color: #555555;
+}
+
+.tools-content p.img-logo {
+  position: relative;
+  padding-left: 90px;
+}
+
+.tools-content p.img-logo img {
+  position: absolute;
+  left: 10px;
+  top: 5px;
+}
+
+.tools-content p.img-logo:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.question-block {
+  border-bottom: 1px solid #EEEEEE;
+}
+
+.accordion-container-item {
+  display: none;
+}
+
+.accordion-section {
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  padding-right: 40px;
+}
+
+.accordion-section:after {
+  position: absolute;
+  content: '';
+  display: block;
+  right: 10px;
+  top: 22px;
+  background: #EAEAEA url(../img/close-faq.svg) no-repeat center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+
+.accordion-section.active:after {
+  transform: rotate(45deg);
+  transition: all 0.2s ease-in;
+  background: #FAE7EB url(../img/close-faq.svg) no-repeat center;
+
+}
+
+.accordion-section:hover:after {
+  background: #FAE7EB url(../img/close-faq.svg) no-repeat center;
+
+
+}
+
+.accordion-section p {
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  font-weight: bold;
+  color: #555555;
+}
+
+
+.accordion-container-item p {
+  font-size: 18px;
+  line-height: 24px;
+  /* or 133% */
+
+
+  color: #555555;
+}
+
+
+
+
+
+
+
+
+
+
+
+
