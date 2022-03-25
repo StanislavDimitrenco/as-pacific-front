@@ -86,9 +86,9 @@
 @media screen and (max-width: 1480px) {
   .block-logo-img {
     -webkit-box-flex: 0;
-    -ms-flex: 0 0 20%;
-    flex: 0 0 20%;
-    max-width: 20%;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
   }
 }
 
@@ -257,16 +257,6 @@
     padding-top: 70px;
   }
 }
-@media screen and (max-width: 1000px) {
-.block-logo-img {
-  -webkit-box-flex: 0;
-  -ms-flex: 0 0 33.33333%;
-  flex: 0 0 33.33333%;
-  max-width: 33.33333%;
-}
-}
-
-
 
 @media screen and (max-width: 991px) {
   .sticky {
@@ -325,8 +315,12 @@
 
   }
 
+  .social-top-block {
+    padding-top: 245px;
+  }
+
   .slide-three h1 {
-    padding-top: 200px;
+    padding-top: 0px;
   }
 
   .telegramm span {
@@ -777,6 +771,11 @@
     margin-top: 9px;
   }
 
+  .soc-head .landing-banner {
+    background: url(../img/main-landing-img-mobile.jpeg) center top/cover no-repeat #fff;
+  }
+
+
 }
 
 @media screen and (max-width: 720px) {
@@ -890,6 +889,9 @@ display: none;
 padding-top: 50px;
 }
 
+  .inset-white .slide-three h1 {
+    font-size: 34px;
+  }
 
 
 .slide-one {
@@ -1069,4 +1071,11 @@ padding-top: 120px;
 
 @media screen and (max-width:347px) {
   left: 190px;
+}
+
+@media (min-width: 1200px) {
+  .seven-cols .col-lg-1 {
+    width: 14.285714285714285714285714285714%;
+    *width: 14.285714285714285714285714285714%;
+  }
 }

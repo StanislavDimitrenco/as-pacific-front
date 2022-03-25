@@ -147,6 +147,21 @@
   background-size: cover;
 }
 
+.sveza {
+  background-image: url(../potfolio-files/206/sveza-walpher.jpeg);
+  background-size: cover;
+}
+
+.cdek-bg {
+  background-image: url(../potfolio-files/244/cdek.webp);
+  background-size: cover;
+}
+
+.synthesit-bg {
+  background-image: url(../potfolio-files/243/synthesit.webp);
+  background-size: cover;
+}
+
 #export-energy {
   background: #fff url(../potfolio-files/101/cover-mini.jpg) no-repeat center center;
   background-size: cover;
@@ -205,6 +220,11 @@
 
 }
 
+#olympic-games {
+  background: #fff url("../img/olimpiada-prev.jpg") no-repeat center center;
+  background-size: cover;
+}
+
 #mira {
   background: #fff url("../potfolio-files/151/mira.jpg") no-repeat center center;
   background-size: cover;
@@ -235,6 +255,35 @@
 
 }
 
+#caviar {
+  background: #000 url("../img/caviar-logo.jpeg") no-repeat center center;
+  background-size: cover;
+}
+
+#rus-crab {
+  background: #000 url("../img/rus-crab.jpeg") no-repeat center center;
+  background-size: cover;
+}
+
+#iconscin {
+  background: #000 url("../img/iconscin.png") no-repeat center center;
+  background-size: cover;
+}
+
+#sveza {
+  background: #000 url("../img/sveza.png") no-repeat center center;
+  background-size: cover;
+}
+
+#synthesit {
+  background: #000 url("../img/synthesit.png") no-repeat center center;
+  background-size: cover;
+}
+
+#cdek {
+  background: #000 url("../img/cdek.png") no-repeat center center;
+  background-size: cover;
+}
 
 #dashi {
   background: #fff url("../potfolio-files/covers/DASHI-prt.jpg") no-repeat center center;
@@ -246,6 +295,11 @@
   background: #fff url("../potfolio-files/covers/flovera-prt.jpg") no-repeat center center;
   background-size: cover;
 
+}
+
+.zimnyaya-olimpiada {
+  background-image: url(../img/olimpiada-wallper.jpg);
+  background-size: cover;
 }
 
 .dev-first-slide.inset-white {
@@ -497,7 +551,7 @@
   margin-top: -29px;
 }
 
-.landing-china-students-bg .paints-breadcrumb {
+.landing-banner .paints-breadcrumb {
   padding-top: 20px;
   margin-top: 0px;
 }
@@ -521,7 +575,7 @@
   font-weight: 600 !important;
 }
 
-.landing-china-students-bg {
+.soc-head .landing-banner {
   margin-top: 179px;
   background: #fff url(../img/main-landing-img.jpeg) no-repeat center top;
   background-size: cover;

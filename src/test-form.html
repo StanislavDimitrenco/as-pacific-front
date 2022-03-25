@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Useful meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow, noodp">
+    <meta name="googlebot" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <title>Asia Pacific</title>
+    <meta name="description" content="Комплексные решения для популяризации Вашего бренда в Китае.
+Разработка сайтов и мобильных приложений, seo и smm инструменты, atl/btl маркетинг
+">
+    <meta name="keywords" content="">
+    <meta property="og:title" content="Продвижение в Китае">
+    <meta property="og:locale" content="ru_RU">
+    <meta property="og:url" content="http://as-pacific.com/" />
+    <meta property="og:image" content="assets/img/og-img.jpg" />
+    <link href="https://fonts.googleapis.com/css?family=Scada:400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" type="text/javascript"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/jquery.inputmask.bundle.js" type="text/javascript"></script>
+
+
+</head>
+<body>
+<input type="tel" class=" tel-mask" oninput="telMask(this.value)" style="height: 40px; width: 200px">
+<p>Поддерживаемые коды (375, 45, 47, 7)</p>
+<script>
+    var keys = [
+        {id: 994, mask: "+999 (99) 999-99-99", country: "Azerbaijan"},
+        {id: 374, mask: "+999 (99) 99-99-99", country: "Armenia"},
+        {id: 375, mask: "+999 (99) 999-99-99", country: "Belarus"},
+        {id: 7, mask: "+9 (999) 999-99-99", country: "Kazakhstan, Russia"},
+        {id: 996, mask: "+999 (9999) 9-99-99", country: "Republic of Kyrgyzstan"},
+        {id: 373, mask: "+999 (999) 9-99-99", country: "Moldova"},
+        {id: 992, mask: "+999 (9999) 9-99-99", country: "Tajikistan"},
+        {id: 993, mask: "+999 (999) 9-99-99", country: "Turkmenistan"},
+        {id: 998, mask: "+999 (99) 999-9999", country: "Uzbekistan"},
+        {id: 380, mask: "+999 (99) 999-9999", country: "Ukraine"},
+    ]
+
+    function telMask(value) {
+        value = value.split('+').join('')
+        let mask = keys.find(({id}) => value.slice(0, String(id).length) == id)
+        console.log(mask)
+
+        if(mask) {
+            $(".tel-mask").inputmask({"mask": mask.mask});
+        } else {
+            console.log(2)
+            $(".tel-mask").inputmask('remove');
+        }
+    }
+</script>
+
+</body>
+</html>

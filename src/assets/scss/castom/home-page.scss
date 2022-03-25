@@ -50,7 +50,7 @@ body {
 .slide-three h1 {
   font-size: 55px;
   color: $white;
-  padding-top: 300px;
+  padding-top: 100px;
   text-transform: uppercase;
   padding-bottom: 0px;
   max-width: 950px;
@@ -1767,6 +1767,14 @@ a.portfolio-block.white-p:before {
   height: 23px;
 }
 
+.china-students {
+  background: url(../img/school-icon-mini.svg) center no-repeat;
+  top: 7px;
+  left: -3px;
+  width: 23px;
+  height: 23px;
+}
+
 
 .map-list ul li {
   padding-bottom: 20px;
@@ -2164,8 +2172,8 @@ a.portfolio-block.white-p:before {
 
 #go-top {
   position: fixed;
-  bottom: 20px;
-  left: 20px;
+  bottom: 100px;
+  right: 10px;
   text-align: center;
   cursor:pointer;
   display:none;
@@ -2390,9 +2398,16 @@ a.portfolio-block.white-p:before {
 
 .block-logo-img {
   -webkit-box-flex: 0;
-  -ms-flex: 0 0 16.66%;
-  flex: 0 0 16.66%;
-  max-width: 16.66%;
+  -ms-flex: 0 0 12.5%;
+  flex: 0 0 12.5%;
+  max-width: 12.5%;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.block-logo-img img {
+  max-width: 230px;
+  width: 100%;
 }
 
 #parent_w {
@@ -2526,3 +2541,18 @@ a.portfolio-block.white-p:before {
 .paints-breadcrumb {
   margin-top: 50px;
 }
+
+.without-banner .menu-top-block {
+  top: 0;
+}
+
+.without-banner .menu-top-block.menu-fixed {
+  top: 0;
+}
+
+.social-top-block {
+  padding-top: 135px;
+}
+
+
+
